@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".Login_with_phone_otp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="90dp"
+        android:gravity="center">
+        <ImageView
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:src="@drawable/jst_logoshadow" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="250dp">
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="55dp">
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/shadow3"
+        android:elevation="1dp">
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:background="@drawable/edit_shape"
+            android:hint="Enter Otp"
+            android:textSize="28dp"
+            android:textColorHint="#DCDCDC"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            />
+
+
+
+
+    </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_submit"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:elevation="1dp"
+            android:layout_marginLeft="10dp"
+
+            android:textSize="22dp"
+            android:background="@drawable/shadow2"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp">
+ <TextView
+     android:layout_width="150dp"
+     android:layout_height="50dp"
+     android:text="Resend Code"
+     android:textStyle="bold"
+     android:textSize="20dp"
+     android:layout_marginLeft="10dp"
+     android:textColor="@color/black"
+     />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/resend_code_icon"
+            android:layout_marginLeft="-180dp"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center">
+            <ImageButton
+                android:id="@+id/ibtn_getcall"
+                android:layout_width="180dp"
+                android:layout_height="60dp"
+                android:background="@drawable/get_a_call1"
+                android:layout_gravity="center"/>
+            <ImageButton
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="-190dp"
+                android:background="@drawable/phone1"
+               />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Get a call?"
+                android:textSize="20dp"
+                android:background="@color/background_color"
+                android:layout_marginTop="15dp"
+
+                android:textColor="@color/black"/>
+
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+</FrameLayout>
